@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="main.css">
+<script src="main.js"></script>
+<meta name="author" content="Zackary Paulson">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+  <head>
+    
+    <title>Sushi Store</title>
+
+    <header>
+        <img style="border-radius: 50%; padding-top: 10px; padding-left: 10px; padding-right: 10px; padding-bottom: 10px; border: 5px solid black;"src="https://img.freepik.com/free-vector/cute-sushi-salmon-holding-chospsticks-cartoon-icon-illustration_138676-2600.jpg?size=338&ext=jpg" alt="Sushi Logo" width = "225"; height = "225">
+           
+        <nav> 
+              <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="menu">Menu</a>
+                <a href="locations">Locations</a>
+                <a href="about">About</a>
+              </div>
+            </nav>
+    </header>
+  </head>
+
+    <body>
+        <h1 style="font-size:80px;">Best Sellers!</h1>
+
+        <div class="container">
+        <div class="currentSlide"></div>
+          <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+              <img src="https://communityimpact.com/uploads/images/2021/07/13/148681.jpg" style="width:100%;">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+              <img src="https://www.getfish.com.au/wp-content/uploads/2017/09/fresh-salmon-sushi-rolls.jpg" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+              <img src="https://media.istockphoto.com/photos/typical-japanese-food-in-decorated-and-colorful-dishes-sushi-and-picture-id1283247433?k=20&m=1283247433&s=170667a&w=0&h=ZcX3KHuqMFW38ijT4UAxWFYco75QVoDQp9KI53xMFEY=" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+              <img src="https://media.istockphoto.com/photos/composition-with-delicious-sushi-rolls-japanese-food-picture-id1218016941?b=1&k=20&m=1218016941&s=170667a&w=0&h=ivz6ZqCaDEyJ2SU1J6SBjyxZZyUPV1ZBbFqZu70CRw4=" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+              <img src="https://st.depositphotos.com/3063135/4654/i/600/depositphotos_46548367-stock-photo-japanese-seafood-sushi-on-black.jpg" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+              <img src="https://s1.1zoom.me/big0/640/325558-svetik.jpg" style="width:100%">
+          </div>
+        
+         
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+        
+        
+          <div class="row" >
+            <div class="column">
+              <img class="demo cursor" src="https://communityimpact.com/uploads/images/2021/07/13/148681.jpg" style="width:100%; height:150px;" onclick="currentSlide(1)" alt="Sesame Seed">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="https://www.getfish.com.au/wp-content/uploads/2017/09/fresh-salmon-sushi-rolls.jpg" style="width:100%; height:150px" onclick="currentSlide(2)" alt="Salmon Roll">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="https://media.istockphoto.com/photos/typical-japanese-food-in-decorated-and-colorful-dishes-sushi-and-picture-id1283247433?k=20&m=1283247433&s=170667a&w=0&h=ZcX3KHuqMFW38ijT4UAxWFYco75QVoDQp9KI53xMFEY=" style="width:100%; height: 150px" onclick="currentSlide(3)" alt="Sushi Platter">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="https://media.istockphoto.com/photos/composition-with-delicious-sushi-rolls-japanese-food-picture-id1218016941?b=1&k=20&m=1218016941&s=170667a&w=0&h=ivz6ZqCaDEyJ2SU1J6SBjyxZZyUPV1ZBbFqZu70CRw4=" style="width:100%; height:150px" onclick="currentSlide(4)" alt="Sushi Combo">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="https://st.depositphotos.com/3063135/4654/i/600/depositphotos_46548367-stock-photo-japanese-seafood-sushi-on-black.jpg" style="width:100%; height:150px" onclick="currentSlide(5)" alt="Single Sushi">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="https://s1.1zoom.me/big0/640/325558-svetik.jpg" style="width:100%; height:150px" onclick="currentSlide(6)" alt="Full Party Platter">
+            </div>
+          </div>
+        </div>
+    </body>
+
+    <footer>
+        <h2 style="font-size: 80px;">Discounts</h2>
+    </footer>
+</html>
